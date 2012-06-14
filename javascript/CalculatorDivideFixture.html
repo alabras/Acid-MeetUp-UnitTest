@@ -1,0 +1,35 @@
+<html>
+<head>
+  <title>Calculator Divide Fixture</title>
+  <link rel="stylesheet" href="http://code.jquery.com/qunit/git/qunit.css" type="text/css" media="screen" />
+  <script type="text/javascript" src="http://code.jquery.com/qunit/git/qunit.js"></script>
+  <script type="text/javascript" src="calculator.js"></script>
+  <script type="text/javascript">
+    test("Divide with 10 and 5 return 2", function() {
+        //Arrange
+        var calculator = new Calculator();
+        //Act
+        var result = calculator.Divide(10,5);
+        //Assert
+        equal(2, result);
+    });
+
+    test("Divide with Zero then return throw Exception", function() {
+        //Arrange
+        var calculator = new Calculator();
+        //Act
+        raises(function(){
+          calculator.Divide(10,0);
+        }); 
+    });
+  </script>
+</head>
+<body>
+  <h1 id="qunit-header">QUnit example</h1>
+  <h2 id="qunit-banner"></h2>
+  <div id="qunit-testrunner-toolbar"></div>
+  <h2 id="qunit-userAgent"></h2>
+  <ol id="qunit-tests"></ol>
+  <div id="qunit-fixture">test markup, will be hidden</div>
+</body>
+</html>

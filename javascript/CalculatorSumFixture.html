@@ -1,0 +1,36 @@
+<html>
+<head>
+  <title>Calculator Sum Fixture</title>
+  <link rel="stylesheet" href="http://code.jquery.com/qunit/git/qunit.css" type="text/css" media="screen" />
+  <script type="text/javascript" src="http://code.jquery.com/qunit/git/qunit.js"></script>
+  <script type="text/javascript" src="calculator.js"></script>
+  <script type="text/javascript">
+  
+    test("Sum with 5 and 5 return 10", function() {
+        //Arrange
+        var calculator = new Calculator();
+        //Act
+        var result = calculator.Sum(5,5);
+        //Assert
+        equal(10, result);
+    });
+
+    test("Sum with -5 and -5 return -10", function() {
+        //Arrange
+        var calculator = new Calculator();
+        //Act
+        var result = calculator.Sum(-5,-5);
+        //Assert
+        equal(-10, result);
+    });
+  </script>
+</head>
+<body>
+  <h1 id="qunit-header">QUnit example</h1>
+  <h2 id="qunit-banner"></h2>
+  <div id="qunit-testrunner-toolbar"></div>
+  <h2 id="qunit-userAgent"></h2>
+  <ol id="qunit-tests"></ol>
+  <div id="qunit-fixture">test markup, will be hidden</div>
+</body>
+</html>
