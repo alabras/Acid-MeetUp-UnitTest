@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AcidTalks.UnitTestII", "AcidTalks.UnitTestII\AcidTalks.UnitTestII.csproj", "{79EE3A17-CE80-4A06-920C-6FC45C067153}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AcidTalks.UnitTestII.Test", "AcidTalks.UnitTestII.Test\AcidTalks.UnitTestII.Test.csproj", "{5B8EFF0C-DDAC-45B9-BA43-1369C2B6948C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{79EE3A17-CE80-4A06-920C-6FC45C067153}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79EE3A17-CE80-4A06-920C-6FC45C067153}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79EE3A17-CE80-4A06-920C-6FC45C067153}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79EE3A17-CE80-4A06-920C-6FC45C067153}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B8EFF0C-DDAC-45B9-BA43-1369C2B6948C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B8EFF0C-DDAC-45B9-BA43-1369C2B6948C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B8EFF0C-DDAC-45B9-BA43-1369C2B6948C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B8EFF0C-DDAC-45B9-BA43-1369C2B6948C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
